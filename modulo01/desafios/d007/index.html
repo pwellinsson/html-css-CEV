@@ -12,6 +12,12 @@
     <title>Imagem Flexível</title>
 </head>
 <body>
-    
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendoa imagem completa? Experimente aumentar o temanho da janela para aproveitar a melhor experiência</p>
+    <picture>
+        <source media="(max-width: 790px)" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1250px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="Imagem de Paisagem-Tamanho Grande">
+    </picture>
 </body>
 </html>
