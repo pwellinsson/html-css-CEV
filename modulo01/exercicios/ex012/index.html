@@ -9,5 +9,14 @@
 <body>
     <h1>Inserindo vídeos hospedados localmente</h1>
     <p>Este vídeos está hospedado no meu póprio servidor.</p>
+
+    <!--<video src="video/meu-video-full.mp4" width="500" controls></video>-->
+    <video controls poster="img/cachoeira.jpg" width="500">
+        <source src="video/meu-video-full.mp4" type="video/mp4">
+        <source src="video/Meu-Video-720p.mp4" type="video/mp4"><!--Não consegui o .m4v-->
+        <source src="video/Meu-Video-720p.webm" type="video/webm">
+        <source src="video/meu-video-full.ogv" type="video/ogv">
+        <p>Seu nvegador não tem capacidade para reproduzir vídeos. <a href="video/meu-video-full.mp4">Baixe aqui</a> o arquivo ".mp4"</p>
+    </video>
 </body>
 </html>
