@@ -7,8 +7,8 @@ body {
 }
 
 h1 {
-    color: darkblue;
-    background-color: lightskyblue;
+    color: maroon;
+    background-color: goldenrod;
 }
 
 h2 {
@@ -17,4 +17,8 @@ h2 {
 
 p {
     text-align: justify;
+}
+
+a {
+    color: limegreen;
 }
