@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body {
+    background-color: #E6C8FA;
+}
+
+h1 {
+    color: #3D7A58;
+    box-shadow: 5px 5px 5px 5px #8F6EA5;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h2 {
+    color: #FAE8C8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    filter: drop-shadow(2px 4px 2px #333);
+}
+
+p {
+    color: #8F6EA5;
+}
+
+pre {
+    display: inline-block;
+    box-shadow: 5px 4px 15px darkred;
+    background-color: #333;
+    color: #13fc78;
+    filter: drop-shadow(2px 4px 2px black);
+}
