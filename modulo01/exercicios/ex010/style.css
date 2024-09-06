@@ -1,2 +1,24 @@
 @charset "UTF-8";
 
+body {
+    background-color: rgb(34, 51, 34);
+    font-size: 18px;
+}
+
+h1 {
+    color: rgb(102, 221, 102);
+    box-shadow: 2px 4px 2px rgb(78, 94, 78);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(108, 136, 108);
+}
+
+p {
+    color: aliceblue;
+}
+
+a {
+    color: rgb(112, 179, 112);
+}
