@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            background-color: aliceblue;
+        }
+
+        h1 {
+            color: rgba(26, 139, 139, 0.827);
+            text-align: center;
+            text-shadow: 1px 1px 2px rgba(20, 106, 106, 0.827);
+        }
+    </style>
     <title>Vídeos com HTML5</title>
 </head>
 <body>
-    <h1>Inserindo vídeos hospedados localmente</h1>
+    <h1>Inserindo vídeos </h1>
+    <h2>Inserindo vídeos hospedados localmente</h2>
     <p>Este vídeos está hospedado no meu póprio servidor.</p>
 
     <!--<video src="video/meu-video-full.mp4" width="500" controls></video>-->
@@ -18,7 +30,7 @@
         <source src="video/meu-video-full.ogv" type="video/ogv">
         <p>Seu nvegador não tem capacidade para reproduzir vídeos. <a href="video/meu-video-full.mp4">Baixe aqui</a> o arquivo ".mp4"</p>
     </video>
-    <h1>Inserindo vídeos do Youtube</h1>
+    <h2>Inserindo vídeos do Youtube</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=_P6HNb1n_98MYKKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </body>
 </html>
