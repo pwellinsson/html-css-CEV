@@ -3,8 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Filxgirl';
+            src: url('fonts/Filxgirl.TTF') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /* 
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Filxgirl', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
 </head>
 <body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus harum odit, itaque, non magnam deserunt tenetur, placeat amet architecto cum illum dolores qui sequi quis? Quaerat dolores praesentium expedita consequuntur.</p>
 </body>
 </html>
