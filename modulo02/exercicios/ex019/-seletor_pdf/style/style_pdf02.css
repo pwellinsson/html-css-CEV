@@ -1,1 +1,19 @@
 @charset "UTF-8";
+
+body {
+    font: normal 1em Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    text-decoration: underline;
+}
