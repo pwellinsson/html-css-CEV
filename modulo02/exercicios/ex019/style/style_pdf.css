@@ -2,6 +2,7 @@
 
 body {
     font: normal 1em Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
 }
 
 h1 {
@@ -9,6 +10,20 @@ h1 {
     color: darkgreen;
 }
 
+#titulo-principal {
+    background-color: darkgreen;
+    color: aliceblue;
+    text-align: center;
+}
+
 h2 {
     color: green;
+}
+
+.topico {
+    text-align: right;
+}
+
+.texto {
+    text-align: justify;
 }
