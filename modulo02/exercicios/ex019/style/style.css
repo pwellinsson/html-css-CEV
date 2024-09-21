@@ -11,15 +11,15 @@ body {
 }
 
 h1 {
-    color: rgb(4, 109, 0);
+    color: #416439;
 }
 
 h1#principal {  /* #principal   Também funcionaria */
     text-align: center;
-    background-color: rgb(4, 109, 0);
+    background-color: #57864D;
     color: aliceblue;
 }
 
 h2 {
-    color: rgb(51, 77, 49);
+    color: #83CA73;
 }
