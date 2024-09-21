@@ -23,3 +23,20 @@ h1#principal {
 h2 {
     color: #83CA73;
 }
+
+.basico {
+    color: #83CA73;
+    font-weight: bold;
+}
+
+.intermediario {
+    color: #c6ca73;
+}
+
+.avancado {
+    color: #ca737d;
+}
+
+.destaque {
+    background-color: #c5c5606e;
+}
