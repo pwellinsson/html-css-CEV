@@ -57,3 +57,28 @@ nav > a {
 nav > a:hover {
     text-decoration: underline;
 }
+
+main {
+    padding: 9px 10px;
+    margin: 8px 60px;
+    background-color: white;
+    color: black;
+}
+
+h2 {
+    font-family: var(--font2);
+    color: var(--cor5);
+}
+
+h3 {
+    background-image: linear-gradient(45deg, var(--cor1), var(--cor0));
+    color: var(--cor4);
+}
+
+p {
+    text-indent: 25px;
+}
+
+.mudança_cor {
+    color: var(--cor4);
+}
