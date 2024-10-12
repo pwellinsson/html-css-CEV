@@ -1,1 +1,59 @@
 @charset "UTF-8";
+@font-face {
+    font-family: 'android';
+    src: url('fonts/idroid.otf') format('opentype');
+}
+@font-face {
+    font-family: 'bebas-neue';
+    src: url('fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+/*:root { ME
+    --cor0: #20D121;
+    --cor1: #35A735;
+    --cor2: #3C7C3C;
+    --cor3: #355235;
+    --cor4: #2A332A;
+    --font0: Arial, Helvetica, sans-serif;
+    --font1: ;
+    --font2: ;
+}*/
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063d1e;
+    --font0: Arial, Helvetica, sans-serif;
+    --font1: 'bebas-neue', sans-serif;
+    --font2: 'android', sans-serif;
+}
+
+body {
+    background-color: var(--cor1);
+    color: var(--cor0);
+    font-family: var(--font0);
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor4), var(--cor3));
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    margin: -8px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+}
+
+nav{
+    text-align: left;
+}
+
+nav > a {
+    padding-left: 10px;
+    color: var(--cor0);
+    text-decoration: none;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
