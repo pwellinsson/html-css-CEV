@@ -31,7 +31,7 @@
 
 body {
     background-color: var(--cor1);
-    color: white;
+    color: var(--cor0);
     font-family: var(--font0);
 }
 
@@ -71,6 +71,14 @@ h2 {
 }
 
 h3 {
-    background-image: linear-gradient(45deg, var(--cor2), var(--cor0));
+    background-image: linear-gradient(45deg, var(--cor1), var(--cor0));
+    color: var(--cor4);
+}
+
+p {
+    text-indent: 25px;
+}
+
+.mudança_cor {
     color: var(--cor4);
 }
