@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'android';
-    src: url('fonts/idroid.otf') format('opentype');
+    src: url('../fonts/idroid.otf') format('opentype');
 }
 @font-face {
     font-family: 'bebas-neue';
-    src: url('fonts/BebasNeue-Regular.ttf') format('truetype');
+    src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
 }
 /*:root { ME
     --cor0: #20D121;
