@@ -10,6 +10,19 @@
     src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
 }
 
+:root {
+    --cor0: #C5EBD6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063D1E;
+    
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --font-destaque: 'bebas-neue', sans-serif;
+    --font-android: 'android', sans-serif;
+}
+
 body {
     background-color: aliceblue;
 }
