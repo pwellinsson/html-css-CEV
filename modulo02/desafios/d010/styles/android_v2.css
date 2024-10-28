@@ -33,6 +33,14 @@ body {
     font-family: var(--fonte-padrao);
 }
 
+a.external::after {
+    content: '\00A0\1F517';
+}
+
+a.external::before {
+    content: '\1F517\00A0';
+}
+
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor4), var(--cor5));
     min-height: 150px;
@@ -130,14 +138,6 @@ main a:hover {
     color: var(--cor4);
 }
 
-main a::before{
-    content: '<= ';
-}
-
-main a::after {
-    content: ' =>';
-}
-
 main img {
     width: 100%;
 }
@@ -148,7 +148,43 @@ main .pequena {
     margin: auto;
 }
 
+aside {
+    background-color: var(--cor1);
+    padding: 0px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+aside > ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+aside h3 {
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: 0px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.325);
+}
+
 footer {
     background-color: var(--cor5);
     color: white;
+    text-align: center;
+    font-size: 0.878em;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+    transition-duration: .3s;
 }
