@@ -65,6 +65,7 @@ header p {
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
+    margin-bottom: 30px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.353);
 }
 
@@ -76,7 +77,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: var(--cor1);
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
