@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: "PassionOne-Bold";
-    src: url(fonts/PassionOne-Bold.ttf);
+    src: url(../fonts/PassionOne-Bold.ttf);
 }
 
 @font-face {
     font-family: "Sriracha-Regular";
-    src: url(fonts/Sriracha-Regular.ttf);
+    src: url(../fonts/Sriracha-Regular.ttf);
 }
 
 :root {
