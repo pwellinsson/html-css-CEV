@@ -11,9 +11,9 @@
 }
 
 :root {
-    --fonte: Verdana, Arial, sans-serif;
-    --fonte01: "PassionOne-Bold", sans-serif;
-    --fonte02: "Sriracha-Regular", sans-serif;
+    --fonte: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte01: "PassionOne-Bold", cursive;
+    --fonte02: "Sriracha-Regular", cursive;
 }
 
 * {
@@ -36,10 +36,11 @@ header {
 header > h1 {
     font-family: var(--fonte01);
     padding-top: 50px;
+    font-size: 10vw;
     font-variant: small-caps;
 }
 
-header > p {
+header > nav {
     padding-bottom: 50px;
 }
 
@@ -56,6 +57,7 @@ a:hover {
 section {
     padding: 10vh 0px 10vh 30px;
     line-height: 2em;
+    font-size: 3vw;
 }
 
 section > p {
@@ -73,8 +75,10 @@ section > p {
 }
 
 .imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.241);
+    border-radius: 8px;
 }
 
 footer {
