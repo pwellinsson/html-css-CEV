@@ -45,11 +45,11 @@ header > nav {
 }
 
 a {
-     color: white;
-     text-decoration: none;
-     font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
 }
-
+    
 a:hover {
     text-decoration: underline;
 }
@@ -57,11 +57,12 @@ a:hover {
 section {
     padding: 10vh 0px 10vh 30px;
     line-height: 2em;
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 
 section > p {
     font-family: var(--fonte02);
+    padding-bottom: 2em;
 }
 
 .normal {
@@ -72,13 +73,29 @@ section > p {
 .imagem {
     background-color: rgb(51, 51, 51);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.341);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.241);
-    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.518);
+    border-radius: 2px;
+    text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.411);
+
+}
+
+#img01 {
+    background-image: url(../img/background001.jpg);
+    background-position: center right;
+}
+
+#img02 {
+    background-image: url(../img/background002.jpg);
+    background-position: left bottom;
 }
 
 footer {
