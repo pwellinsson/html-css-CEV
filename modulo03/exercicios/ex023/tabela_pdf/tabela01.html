@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initialp-scale=1.0" />
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />
+    <title>Primeira Tabela</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      table {
+        width: 600px;
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin: auto;
+        margin-top: 25px;
+      }
+
+      caption {
+        text-align: center;
+        background-color: #ececec;
+        font-weight: bolder;
+        font-size: 1.5em;
+        padding: 5px;
+      }
+
+      thead, tfoot {
+        color: white;
+        background-color: rgb(99, 99, 99);
+        font-weight: bold;
+      }
+
+      tbody > tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+
+      tbody > tr:nth-child(odd) {
+        background-color: #ffffff;
+      }
+
+      tr {
+        height: 30px;
+      }
+
+      td,
+      th {
+        border: 2px solid black;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        População das Unidades Federativas
+      </caption>
+
+      <thead>
+        <tr>
+          <th scope="col">Cidade</th>
+          <th scope="col">População</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>São Paulo</td>
+          <td>45.919.049</td>
+        </tr>
+        <tr>
+          <td>Minas Gerais</td>
+          <td>21.168.791</td>
+        </tr>
+        <tr>
+          <td>Rio de Janeiro</td>
+          <td>17.264.943</td>
+        </tr>
+        <tr>
+          <td>Bahia</td>
+          <td>14.873.064</td>
+        </tr>
+        <tr>
+          <td>Paraná</td>
+          <td>11.433.957</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th scope="row">Total</th>
+          <td>110.659.804</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
