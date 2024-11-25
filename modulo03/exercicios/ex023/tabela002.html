@@ -6,34 +6,43 @@
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
     <title>Tabelas</title>
     <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
 
-        h1 {
-            text-align: center;
-            font-size: 2.5em;
-        }
+      h1 {
+        text-align: center;
+        font-size: 2.5em;
+      }
 
-        table {
-            width: 500px;
-            margin: auto;
-            border-collapse: collapse;
-        }
+      table {
+        width: 500px;
+        margin: auto;
+        border-collapse: collapse;
+      }
 
-        td, th {
-            border: 2px solid black;
-            padding: 10px;
-        }
+      td,
+      th {
+        border: 2px solid black;
+        padding: 10px;
+      }
 
-        thead, tfoot {
-            background-color: gray;
-            color: white;
-        }
+      caption {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: lightgray;
+      }
 
-        td.numero {
-            text-align: right;
-        }
+      thead,
+      tfoot {
+        background-color: gray;
+        color: white;
+      }
+
+      td.numero {
+        text-align: right;
+      }
     </style>
   </head>
   <body>
@@ -49,10 +58,13 @@
             TR, TD, TH
     -->
     <table>
+      <caption>
+        População das Unidades Federativas
+      </caption>
       <thead>
         <tr>
-          <th>Estado</th>
-          <th>População</th>
+          <th scope="col">Estado</th>
+          <th scope="col" style="width: 50px">População</th>
         </tr>
       </thead>
       <tbody>
@@ -61,114 +73,114 @@
           <td class="numero">45.973.190</td>
         </tr>
         <tr>
-            <td>Minas Gerais</td>
-            <td class="numero">21.168.791</td>
+          <td>Minas Gerais</td>
+          <td class="numero">21.168.791</td>
         </tr>
         <tr>
-            <td>Rio de Janeiro</td>
-            <td class="numero">17.219.679</td>
+          <td>Rio de Janeiro</td>
+          <td class="numero">17.219.679</td>
         </tr>
         <tr>
-            <td>Bahia</td>
-            <td class="numero">14.850.513</td>
+          <td>Bahia</td>
+          <td class="numero">14.850.513</td>
         </tr>
         <tr>
-            <td>Paraná</td>
-            <td class="numero">11.824.665</td>
+          <td>Paraná</td>
+          <td class="numero">11.824.665</td>
         </tr>
         <tr>
-            <td>Rio Grande do Sul</td>
-            <td class="numero">11.229.915</td>
+          <td>Rio Grande do Sul</td>
+          <td class="numero">11.229.915</td>
         </tr>
         <tr>
-            <td>Pernambuco</td>
-            <td class="numero">9.539.029</td>
+          <td>Pernambuco</td>
+          <td class="numero">9.539.029</td>
         </tr>
         <tr>
-            <td>Ceará</td>
-            <td class="numero">9.233.656</td>
+          <td>Ceará</td>
+          <td class="numero">9.233.656</td>
         </tr>
         <tr>
-            <td>Pará</td>
-            <td class="numero">8.664.306</td>
+          <td>Pará</td>
+          <td class="numero">8.664.306</td>
         </tr>
         <tr>
-            <td>Santa Catarina</td>
-            <td class="numero">8.058.447</td>
+          <td>Santa Catarina</td>
+          <td class="numero">8.058.447</td>
         </tr>
         <tr>
-            <td>Goiás</td>
-            <td class="numero">7.350.483</td>
+          <td>Goiás</td>
+          <td class="numero">7.350.483</td>
         </tr>
         <tr>
-            <td>Maranhão</td>
-            <td class="numero">7.010.960</td>
+          <td>Maranhão</td>
+          <td class="numero">7.010.960</td>
         </tr>
         <tr>
-            <td>Amazonas</td>
-            <td class="numero">4.281.209</td>
+          <td>Amazonas</td>
+          <td class="numero">4.281.209</td>
         </tr>
         <tr>
-            <td>Paraíba</td>
-            <td class="numero">4.145.040</td>
+          <td>Paraíba</td>
+          <td class="numero">4.145.040</td>
         </tr>
         <tr>
-            <td>Espírito Santo</td>
-            <td class="numero">4.102.129</td>
+          <td>Espírito Santo</td>
+          <td class="numero">4.102.129</td>
         </tr>
         <tr>
-            <td>Mato Grosso</td>
-            <td class="numero">3.836.399</td>
+          <td>Mato Grosso</td>
+          <td class="numero">3.836.399</td>
         </tr>
         <tr>
-            <td>Rio Grande do Norte</td>
-            <td class="numero">3.446.071</td>
+          <td>Rio Grande do Norte</td>
+          <td class="numero">3.446.071</td>
         </tr>
         <tr>
-            <td>Piauí</td>
-            <td class="numero">3.375.646</td>
+          <td>Piauí</td>
+          <td class="numero">3.375.646</td>
         </tr>
         <tr>
-            <td>Alagoas</td>
-            <td class="numero">3.220.104</td>
+          <td>Alagoas</td>
+          <td class="numero">3.220.104</td>
         </tr>
         <tr>
-            <td>Distrito Federal</td>
-            <td class="numero">2.982.815</td>
+          <td>Distrito Federal</td>
+          <td class="numero">2.982.815</td>
         </tr>
         <tr>
-            <td>Mato Grosso do Sul</td>
-            <td class="numero">2.901.895</td>
+          <td>Mato Grosso do Sul</td>
+          <td class="numero">2.901.895</td>
         </tr>
         <tr>
-            <td>Sergipe</td>
-            <td class="numero">2.291.077</td>
+          <td>Sergipe</td>
+          <td class="numero">2.291.077</td>
         </tr>
         <tr>
-            <td>Rondônia</td>
-            <td class="numero">1.746.227</td>
+          <td>Rondônia</td>
+          <td class="numero">1.746.227</td>
         </tr>
         <tr>
-            <td>Tocantins</td>
-            <td class="numero">1.577.342</td>
+          <td>Tocantins</td>
+          <td class="numero">1.577.342</td>
         </tr>
         <tr>
-            <td>Acre</td>
-            <td class="numero">880.631</td>
+          <td>Acre</td>
+          <td class="numero">880.631</td>
         </tr>
         <tr>
-            <td>Amapá</td>
-            <td class="numero">802.837</td>
+          <td>Amapá</td>
+          <td class="numero">802.837</td>
         </tr>
         <tr>
-            <td>Roraima</td>
-            <td class="numero">716.793</td>
+          <td>Roraima</td>
+          <td class="numero">716.793</td>
         </tr>
       </tbody>
       <tfoot>
         <tr>
-            <th>Total de Habitantes</th>
-            <td class="numero"><strong>260.147.125(Mentira)</strong></td>
+          <th scope="row">Total de Habitantes</th>
+          <td class="numero"><strong>260.147.125(Mentira)</strong></td>
         </tr>
       </tfoot>
     </table>
