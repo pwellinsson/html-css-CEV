@@ -5,8 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />
     <title>Segunda Tabela</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      table {
+        width: 600px;
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin: auto;
+        margin-top: 25px;
+      }
+
+      thead {
+        color: white;
+        background-color: rgb(99, 99, 99);
+        font-weight: bold;
+      }
+
+      /*tbody > tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+
+      tbody > tr:nth-child(odd) {
+        background-color: #ffffff;
+      }*/
+
+      tr {
+        height: 30px;
+      }
+
+      td,
+      th {
+        border: 2px solid black;
+        text-align: left;
+      }
+    </style>
   </head>
   <body>
-    
+    <table>
+      <thead>
+        <tr>
+          <th>Grupo</th>
+          <th>Nomes</th>
+          <th colspan="3">Filmes Favoritos</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="3">Mulheres</td>
+          <td>Ana Maria Santos</td>
+          <td>Alien</td>
+          <td>Rambo</td>
+          <td>Vingadores</td>
+        </tr>
+        <tr>
+          <td>Beatriz Souza</td>
+          <td>Hulk</td>
+          <td>Inception</td>
+          <td>Batman</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
