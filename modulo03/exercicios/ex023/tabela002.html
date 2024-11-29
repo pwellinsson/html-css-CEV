@@ -18,6 +18,7 @@
       table {
         width: 500px;
         margin: auto;
+        position: relative;
         border-collapse: collapse;
       }
 
@@ -38,6 +39,11 @@
       tfoot {
         background-color: gray;
         color: white;
+      }
+      thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: gray;
       }
 
       tbody > tr:nth-child(odd) { /* 2n-1 */
