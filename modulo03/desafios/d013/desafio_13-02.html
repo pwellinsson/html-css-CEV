@@ -5,15 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <title>Tabelas</title>
+    <style>
+        body {
+            background-color: aliceblue;
+            font: 1.4em Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: separate;
+            margin: auto;
+        }
+
+        td {
+            border: 2px solid black;
+            height: 50px;
+            width: 100px;
+            background-color: rgba(154, 149, 149, 0.83);
+        }
+    </style>
 </head>
 <body>
     <table>
         <tr>
-            <td>A</td>
-            <td>B</td>
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
         </tr>
         <tr>
-            <td>C</td>
+            <td rowspan="4">C</td>
             <td>D</td>
             <td>E</td>
             <td>F</td>
@@ -29,7 +48,7 @@
             <td>M</td>
         </tr>
         <tr>
-            <td>N</td>
+            <td colspan="4">N</td>
         </tr>
     </table>
 </body>
