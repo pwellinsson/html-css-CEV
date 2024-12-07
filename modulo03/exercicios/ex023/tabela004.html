@@ -5,53 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
     <title>Tabelas</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      table {
+        border-collapse: collapse;
+        margin: auto;
+      }
+
+      caption {
+        font: bold 1.3em Arial, Helvetica, sans-serif;
+        padding: 10px;
+      }
+
+      td, th {
+        border: 2px solid gray;
+        width: 200px;
+        height: 20px;
+      }
+    </style>
   </head>
   <body>
     <h1>Exercícios de Tabelas</h1>
     <table>
-        <tr>
-            <th>Grupo</th>
-            <th>Nome</th>
-            <th>Filmes</th>
-        </tr>
-        <tr>
-            <th>Mulheres</th>
+        <caption>
+            Filmes Favoritos
+        </caption>
+      <thead>
+          <tr>
+            <th>Grupos</th>
+            <th>Nomes</th>
+            <th colspan="3">Filmes</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+            <th rowspan="3">Mulheres</th>
             <td>Ana Maria Santos</td>
             <td>Alien</td>
             <td>Rambo</td>
             <td>Vingadores</td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td>Beatriz Souza</td>
             <td>Hulk</td>
             <td>Inception</td>
             <td>Batman</td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td>Cláudia Melo</td>
             <td>Oblivion</td>
             <td>Matriz</td>
             <td>Big Hero</td>
-        </tr>
-        <tr>
-            <th>Homens</th>
+          </tr>
+          <tr>
+            <th rowspan="3">Homens</th>
             <td>Bruno Mendonça</td>
             <td>Intocáveis</td>
             <td>Amnésia</td>
             <td>Gladiador</td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td>Daniel Lourenço</td>
             <td>Wall-E</td>
             <td>Oldboy</td>
             <td>Dengal</td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td>Fabiano Mota</td>
             <td>Star Wars 5</td>
             <td>Taxi Driver</td>
             <td>Toy Story</td>
-        </tr>
+          </tr>
+      </tbody>
     </table>
   </body>
 </html>
