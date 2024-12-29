@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>JavaScript</title>
+    <style>
+      body {
+        background-color: rgb(62, 166, 131);
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#" onclick="Clique()">Clique em mim</a>
+    <div id="saida"></div>
+
+    <script>
+      function Clique() {
+        s = document.querySelector("div#saida");
+        s.innerHTML += "<p>Você clicou no link!</p>";
+      }
+    </script>
+  </body>
+</html>
