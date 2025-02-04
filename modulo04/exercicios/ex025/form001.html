@@ -5,14 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
     <title>Formulário</title>
-    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="form.css" />
   </head>
   <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="">
-        <p>Nome: <input type="text" name="nome" id="nome"></p>
-        <p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p>
-        <p><input type="submit" value="Enviar"></p>
+    <form autocomplete="off" action="cadastro.js">
+      <!--Tag name é mais util para HTML e PHP, enquanto id é mais util para JS-->
+
+      <!--Utilizar o label para identificar o campo é importantissimo, SEMPRE FAÇA!!-->
+      <p>
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome" />
+      </p>
+      <p>
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" name="sobrenome" id="sobrenome" />
+      </p>
+      <p><input type="submit" value="Enviar" /></p>
     </form>
   </body>
 </html>
