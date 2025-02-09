@@ -34,3 +34,14 @@ input[type="reset"] {
   border: 2px solid black;
   padding: 2px;
 }
+
+.mono {
+  font-family: monospace;
+  font-size: 15px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: gray;
+  padding: 5px;
+}
