@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.js" method="get" autocomplete="on">
+      <fieldset>
+        <legend>Sexo</legend>
+        <input type="radio" name="sex" id="sex_masc" checked>
+        <label for="sex_masc">Masculino</label> <br>
+        <input type="radio" name="sex" id="sex_fem">
+        <label for="sex_fem">Feminino</label>
+      </fieldset>
+      <fieldset>
+        <legend>Esportes favoritos</legend>
+        <input type="checkbox" name="es_fut" id="es_fut" checked /><label for="es_fut"
+          >Futebol</label
+        ><br />
+        <input type="checkbox" name="es_bas" id="es_bas" /><label for="es_bas"
+          >Basquete</label
+        ><br />
+        <input type="checkbox" name="es_vole" id="es_vole" /><label
+          for="es_vole"
+          >Volei</label
+        ><br />
+        <input type="checkbox" name="es_nata" id="es_nata" /><label
+          for="es_nata"
+          >Natação</label
+        ><br />
+        <input type="checkbox" name="es_ten" id="es_ten" /><label for="es_ten"
+          >Tênis</label
+        ><br />
+      </fieldset>
+      <div>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+      </div>
+    </form>
+  </body>
+</html>
