@@ -41,9 +41,33 @@ input.mono {
 input.mono::placeholder {
   font-weight: bold;
 }
+fieldset {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+legend {
+  padding: 5px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
 
 input[type="submit"]:hover,
 input[type="reset"]:hover {
   background-color: darkgray;
   padding: 5px;
+}
+
+input[type="submit"]:active,
+input[type="reset"]:active {
+  background-color: gray;
 }
