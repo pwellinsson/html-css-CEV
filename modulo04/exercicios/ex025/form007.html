@@ -9,9 +9,41 @@
   </head>
   <body>
     <h1>Exemplo de Formulário</h1>
-    <form action="cadastro.js" method="post">
+    <form action="cadastro.js" method="post" autocomplete="on">
       <div>
-        
+        <label for="est">Estado</label>
+        <select name="estado" id="est" required>
+            <option value="">--Escolha--"></option>
+
+            <optgroup label="Região Sudeste">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+            </optgroup>
+
+            <optgroup label="Região Nordeste">
+                <option value="MA">Maranhão</option>
+                <option value="PE">Pernambuco</option>
+                <option value="AL">Alagoas</option>
+            </optgroup>
+        </select>
+      </div>
+      
+      <div>
+        <label for="prof">Profissão: </label>
+        <input type="text" name="prof" id="prof" list="lstprof" required>
+        <datalist id="lstprof">
+            <option>Administrador</option>
+            <option>Desenvolvedor</option>
+            <option>Professor</option>
+            <option>Estudante</option>
+            <option>Contabilista</option>
+        </datalist>
+      </div>
+
+      <div>
+        <label for="msg">Mensagem: </label> <br>
+        <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Your Message"></textarea>
       </div>
 
       <div>
