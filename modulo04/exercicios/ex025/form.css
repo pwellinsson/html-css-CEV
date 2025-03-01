@@ -52,6 +52,11 @@ legend {
   padding: 5px;
 }
 
+input {
+  background-color: white;
+  border: 1px solid black;
+}
+
 input[type="checkbox"],
 input[type="radio"] {
   width: 15px;
