@@ -9,5 +9,26 @@
   </head>
   <body>
     <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.js" method="get" autocomplete="on">
+
+        <div>
+            <label for="ano">Em que ano você nasceu?</label>
+            <input type="number" name="ano" id="ano" min="1900" max="2025" oninput="calc_idade()">
+        </div>
+
+        <div>
+            <label for="idade">Sua idade é: </label>
+            <output id="idade">0</output>
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+
+        <script>
+            function calc_idade() {idade.innerHTML = Number(new Date().getFullYear()) - Number(ano.value);
+            }
+        </script>
   </body>
 </html>
