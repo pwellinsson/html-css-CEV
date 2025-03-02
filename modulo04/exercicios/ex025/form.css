@@ -66,6 +66,11 @@ input[type="radio"] {
   vertical-align: middle;
 }
 
+input[type="submit"],
+input[type="reset"] {
+  margin: 10px -1px 0px 6px;
+}
+
 input[type="submit"]:hover,
 input[type="reset"]:hover {
   background-color: darkgray;
