@@ -3,15 +3,23 @@
 /* Estilos gerais */
 
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
-html {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  width: 100vw;
+  height: 100vh;
+  background-color: #233eff;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 0px #152289;
+  padding: 10px;
 }
