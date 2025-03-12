@@ -3,5 +3,6 @@
 /* Estilo landscape (paisagem/deitado) */
 
 body {
-  background: url(../img/cev-landscape.jpg) left bottom;
+  background-image: url(../img/cev-landscape.jpg);
+  background-position: left bottom;
 }

@@ -3,7 +3,6 @@
 /* Estilo portrait (retrato/em pé) */
 
 body {
-  background: url(../img/cev-portrait.jpg) center bottom;
-
+  background-image: url(../img/cev-portrait.jpg);
+  background-position: center bottom;
 }
-
