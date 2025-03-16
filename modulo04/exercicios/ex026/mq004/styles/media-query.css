@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias */
+
+/* Typical Device Breakpoints
+----------------------------------------------
+Pequenas Telas (Extra Pequeno): até 576px (Normalmente começa em 320px)
+Celular (Pequeno): de 576px ate 768px
+Tablet (Médio): de 768px ate 992px
+Desktop (Grande): de 992px ate 1200px
+Grandes Telas (Extra Grande): acima de 1200px
+*/
+
+
+@media print { /* Impressora */
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body {
+        background-image: url(../img/back-print.jpg); /* Desnecessário */
+    }
+
+    main {
+        border: 2px solid black;
+        width: 90vw;
+    }
+
+    main::after {
+        content: "Impressão feita pelo site do GitHub pwellinsson";
+        text-decoration: overline; /* Sublinhado */
+    }
+
+    main h1 {
+        text-shadow: none;
+        color: black;
+    }
+    
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: block;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /* Tablets */
+    body {
+        background-image: url(../img/back-tablet.jpg);
+    }
+
+    img#phone {display: none;}
+    img#tablet {display: block;}
+    img#print {display: none;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /* Desktops */
+    body {
+        background-image: url(../img/back-pc.jpg);
+    }
+
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: none;}
+    img#pc {display: block;}
+    img#tv {display: none;}
+}
+
+@media screen and (min-width: 1200px) { /* Grandes Telas */
+    body {
+        background-image: url(../img/back-tv.jpg);
+    }
+
+    main {
+        width: 700px;
+    }
+
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: none;}
+    img#pc {display: none;}
+    img#tv {display: block;}
+}
