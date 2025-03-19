@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+i#icon-menu {display: none;}
+menu {display: inline;}
+
+menu > ul {
+  margin-left: 10px;
+}
+
+menu > ul > li {
+  display: inline-block;
+}
+
+menu > ul > li > a {
+  margin: 0px 10px 0px -10px;
+  border-radius: 5px;
+}
+
+menu > ul > li > a:hover {
+  background-color: white;
+  color: black;
+  transition: 0.2s;
+}
+
+main {
+  min-width: 760px;
+  max-width: 700px;
+}
