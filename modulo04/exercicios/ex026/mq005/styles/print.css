@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+html {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.1em;
+}
+
+main {
+  border: 2px solid black;
+  width: 90vw;
+}
+
+main::after {
+  content: "Impressão feita pelo site do GitHub pwellinsson";
+  text-decoration: overline;
+}
+
+main h1 {
+  text-shadow: none;
+  color: black;
+}
