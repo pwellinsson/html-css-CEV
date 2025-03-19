@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
-html {
+html,
+body {
   font-family: "Courier New", Courier, monospace;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 main {
