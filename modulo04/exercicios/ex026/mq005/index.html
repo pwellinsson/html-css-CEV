@@ -5,28 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />
     <title>Media Query</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/phone.css" media="all" />
     <link rel="stylesheet" href="styles/print.css" media="print" />
     <link
       rel="stylesheet"
-      href="styles/tablet.css"
-      media="screen and (min-width: 768px) and (max-width: 992px)"
-    />
-    <link
-      rel="stylesheet"
-      href="styles/desktop.css"
-      media="screen and (min-width: 992px) and (max-width: 1200px)"
-    />
-    <link
-      rel="stylesheet"
-      href="styles/tv.css"
-      media="screen and (min-width: 1200px)"
+      href="styles/tablet-tv.css"
+      media="screen and (min-width: 768px)"
     />
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <header>
       <h1>Meu Site</h1>
+      <i id="icon-menu" class="material-icons" onclick="clickMenu()">menu</i>
       <menu id="menu">
         <ul>
           <li><a href="#">Opção 1</a></li>
@@ -70,5 +65,7 @@
         incidunt delectus, debitis eligendi veniam esse illo nostrum.
       </p>
     </main>
+
+    <script src="script.js"></script>
   </body>
 </html>
