@@ -34,6 +34,10 @@ menu li {
 
 menu li:hover {
   cursor: pointer;
+  background-color: rgb(100, 100, 100);
+  color: black;
+  transition: 0.3s;
+  font-size: 1.1em;
 }
 
 article {

@@ -58,6 +58,7 @@ menu > ul > li > a {
 menu > ul > li > a:hover {
   background-color: white; 
   color: black;
+  font-size: 1.2em;
   transition: 0.2s;
 }
 
