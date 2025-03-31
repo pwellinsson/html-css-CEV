@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+  background-color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteiner {
+  display: flex;
+  /* Usamos o flex-wrap para definir a quebra de itens dentro do conteiner, tendo três possiveis */
+  flex-flow: row-reverse wrap;
+  /*Shorthand mais recomendado pela W3C.
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  */
+  background-color: #3131c785;
+}
+
+.item {
+  flex: auto;
+  background-color: rgb(116, 37, 190);
+  text-align: center;
+  font-weight: bold;
+  border: 3px solid #3131c785;
+  color: aliceblue;
+  font-size: 1em;
+}
+
+.item:hover {
+  background-color: #3e3ee585;
+  color: black;
+  cursor: pointer;
+}
