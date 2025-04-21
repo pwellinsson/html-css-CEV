@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main.conteiner {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: #3131c785;
+  margin: 10px;
+}
+
+div.item {
+  background-color: rgb(116, 37, 190);
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 3px solid #3131c785;
+  color: aliceblue;
+  font-size: 1em;
+  flex-basis: 250px;
+}
+
+div.item:hover {
+  background-color: #3e3ee585;
+  color: black;
+  cursor: pointer;
+}
+
+div#i1 {
+  flex-shrink: 8;
+  flex-grow: 0;
+}
+
+div#i2 {
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+div#i3 {
+  flex-shrink: 2;
+  flex-grow: 5;
+}
