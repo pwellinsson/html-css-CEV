@@ -26,7 +26,6 @@ div.item {
   border: 3px solid #3131c785;
   color: aliceblue;
   font-size: 1em;
-  flex-basis: 200px;
 }
 
 div.item:hover {
@@ -36,16 +35,25 @@ div.item:hover {
 }
 
 div#i1 {
-  flex-shrink: 8;
+  /* Código sem shorthand.
   flex-grow: 0;
+  flex-shrink: 8;
+  flex-basis: 200px; */
+  flex: 0 8 200px;
 }
 
 div#i2 {
-  flex-shrink: 1;
+  /* Código sem shorthand.
   flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 200px; */
+  flex: 1 1 150px;
 }
 
 div#i3 {
-  flex-shrink: 2;
+  /* Código sem shorthand.
   flex-grow: 5;
+  flex-shrink: 2;
+  flex-basis: 200px; */
+  flex: 5 2 auto;
 }
