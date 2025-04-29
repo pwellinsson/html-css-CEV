@@ -1,13 +1,15 @@
 @charset "UTF-8";
 
-nav > ul {
+header {
   display: flex;
-  justify-content: flex-start;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
-nav > ul > li {
-  margin: 0px 0px 0px 4px;
+nav > ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: row nowrap;
 }
 
 nav > ul > li > a {
