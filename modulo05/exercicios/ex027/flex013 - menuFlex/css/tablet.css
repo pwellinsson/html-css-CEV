@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+nav > ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row nowrap;
+}
+
+nav > ul > li {
+  margin: 0px 0px 0px 4px;
+}
+
+nav > ul > li > a {
+  padding: 11px;
+  border-radius: 8px;
+}
