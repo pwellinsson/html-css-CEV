@@ -6,6 +6,10 @@ header {
   justify-content: space-between;
 }
 
+i#icon-menu {
+  display: none;
+}
+
 nav > ul {
   display: flex;
   justify-content: flex-end;

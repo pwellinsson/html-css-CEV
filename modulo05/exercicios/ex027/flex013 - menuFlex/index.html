@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />
     <title>Menu Flexbox</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
@@ -12,10 +16,11 @@
       media="screen and (min-width: 600px)"
     />
   </head>
-  <body>
+  <body onresize="mudouTamanho()">
     <header>
       <h1>Site Flexbox</h1>
-      <nav>
+      <i id="icon-menu" class="material-icons" onclick="clickMenu()">menu</i>
+      <nav id="menu">
         <ul>
           <li><a href="#">Opção 1</a></li>
           <li><a href="#">Opção 2</a></li>
@@ -46,5 +51,6 @@
         </p>
       </article>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -24,6 +24,27 @@ header > h1 {
   margin-right: 80px;
 }
 
+i#icon-menu {
+  width: 95vw;
+}
+
+i#icon-menu, nav > ul > li > a {
+  display: block;
+  background-color: rgb(33, 33, 33);
+  color: rgb(225, 225, 225);
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+i#icon-menu:hover, nav > ul > li > a:hover {
+  cursor: pointer;
+  background-color: rgb(225, 225, 225);;
+  color: rgb(48, 48, 48);
+  transition: background-color 0.5s;
+}
+
 header > nav {
   text-align: left;
 }
@@ -41,18 +62,8 @@ nav > ul > li {
 
 nav > ul > li > a {
   background-color: black;
-  color: white;
-  text-align: center;
   text-decoration: none;
-  padding: 10px;
   margin: 4px;
-  border-radius: 4px;
-}
-
-nav > ul > li > a:hover {
-  background-color: white;
-  color: black;
-  transition: background-color 0.5s;
 }
 
 main {
