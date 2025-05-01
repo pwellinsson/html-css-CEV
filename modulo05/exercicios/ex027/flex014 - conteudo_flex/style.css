@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+h1, h2, p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+header, section.normal {
+    padding: 20px;
+}
+
+section.flex-content {
+    padding: 20px;
+    background-color: rgb(198, 198, 198);
+}
+
+/* footer {
+    background-color: #0042d3;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+} */
